@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "website_bucket" {
-  bucket = "praveen-static-website-demo-12345-github-actions"
+  bucket = "praveen-static-website-demo-12345-github-actions2"
 
   tags = {
     Name = "Static Website"
